@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(55, 55, 55);
+}
+
+@media (min-width: 1200px) {
+
+    .flex-container {
+        flex: auto;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .FirstColumn {
+        display: flex;
+        flex-basis: 33.5%;
+        flex-flow: column;
+        flex: auto;
+    }
+
+    .SecondColumn {
+        display: flex;
+        flex-basis: 33%;
+        flex-flow: column;
+        flex: auto;
+    }
+
+    .ThirdColumn {
+        display: flex;
+        flex-basis: 33.5%;
+        flex-flow: column;
+        flex: auto;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .flex-container {
+        flex: auto;
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .FirstColumn {
+        display: flex;
+        flex-basis: 50%;
+        flex-flow: column;
+        flex: auto;
+        flex-direction: column;
+    }
+
+    .SecondColumn {
+        display: flex;
+        flex-basis: 50%;
+        flex-flow: column;
+        flex: auto;
+
+    }
+
+    .ThirdColumn {
+        display: flex;
+        flex-basis: 25%;
+        flex-flow: column;
+        flex: auto;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+
+    .flex-container {
+        flex: auto;
+        display: flex;
+        flex-flow: row;
+    }
+
+    .FirstColumn {
+        display: flex;
+        flex-basis: 100%;
+        flex-flow: column;
+        flex: auto;
+    }
+
+    .SecondColumn {
+        display: flex;
+        flex-basis: 100%;
+        flex-flow: column;
+        flex: auto;
+    }
+
+    .ThirdColumn {
+        display: flex;
+        flex-basis: 100%;
+        flex-flow: column;
+        flex: auto;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+}
