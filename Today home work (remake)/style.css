@@ -1,0 +1,42 @@
+body {
+	text-align: center;
+	background-color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 120vw;
+}
+
+.flex-container .image {
+	width: 33.33%;
+}
+
+.flex-container .image img {
+	width: 100%;
+	display: block;
+}
+
+@media (max-width: 860px) {
+	.flex-container {
+		height: 150vh;
+	}
+
+	.flex-container .image {
+		width: 50%;
+	}
+}
+
+@media (max-width: 667px) {
+	.flex-container {
+		height: auto;
+	}
+
+	.flex-container .image {
+		width: 100%;
+	}
+}
