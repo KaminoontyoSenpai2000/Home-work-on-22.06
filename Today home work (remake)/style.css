@@ -23,7 +23,7 @@ body {
 
 @media (max-width: 860px) {
 	.flex-container {
-		height: 150vh;
+		height: 235vh;
 	}
 
 	.flex-container .image {
